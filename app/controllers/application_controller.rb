@@ -7,4 +7,7 @@ class ApplicationController < ActionController::Base
   def goodbye
     render html: "さようなら、世界！"
   end
+  def wannahavecat
+    render html: "猫飼いたい"
+  end
 end
